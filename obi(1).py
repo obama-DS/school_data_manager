@@ -1,5 +1,3 @@
-
-
 from rich.console import Console
 from rich.table import Table
 from rich.panel import Panel
@@ -344,8 +342,8 @@ def main():
     while running:
         with console.status("[white]Loading....[/white]", spinner = 'earth'):
             time.sleep(2)
-        table = Table(show_header = True,header_style = "bright_white",border_style = "white",  box = box.DOUBLE)
-        table.add_column("           MAIN MENU",style = "white",justify = "left")
+        table = Table(show_header = True,header_style = "white",border_style = "white",  box = box.DOUBLE)
+        table.add_column("           MAIN MENU",style = "bright_cyan",justify = "left")
         table.add_row("1.Add New Student")
         table.add_row('2.Record a Grade')
         table.add_row("3.View Student Info")
@@ -392,7 +390,7 @@ def main():
                         print('Grade must be between 0 amd 100.')
                         continue
                     s.add_grade(sub, g)
-                    print('Added')
+                    console.print('[green]Added[/green]')
                 except:
                     console.print("[red]Invalid Grade[/red]")
                     continue
