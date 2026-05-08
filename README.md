@@ -23,4 +23,4 @@ Purpose
 The main purpose of this project is to improve my understanding of OOP in Python and to practice building real-life style applications. It also helps me develop clean coding habits and improve my logic skills.
 
 Author  
-Made by Obama Abraham student from Ethiopia learning Python,cyber security,and Data science.
+Made by Obama Abraham student from Ethiopia interested in Python,cyber security,and Data science.
